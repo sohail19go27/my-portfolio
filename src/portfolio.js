@@ -143,7 +143,7 @@ const educationInfo = {
       subHeader: "JEE",
       duration: "September 2019 - April 2022",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: ["Ranked in top 10 percentile in National Level Exam JEE-MAIN"]
     }
   ]
 };
