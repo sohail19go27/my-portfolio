@@ -23,10 +23,10 @@ const greeting = {
   username: "Sohail Ahmad",
   title: "Hi all, I'm Sohail",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 getting an experience of building Software Development Engineer having good knowledge of Full Stack Using Mern or php laravel and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀 skilled in full-stack development using MERN, PHP Laravel, and modern frameworks, building real-world applications and innovative AI-driven projects like MindShield."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/14hL1F_bDuft3fr_-jtorWaC56-hLeduu/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1kp5iJO2OTz665WgcdL1ftXB74ysh6WSt/view?usp=drivesdk", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -52,9 +52,10 @@ const skillsSection = {
   subTitle: "SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop Efficient working Software"
+      "⚡ Develop Innovative real life AI driven Efficient working Software"
     ),
-    emoji("⚡Play Carrom and Table Tennis"),
+    emoji("⚡Data Structures Programmer"),
+    emoji("⚡Love Play Carrom and Table Tennis"),
     emoji(
       "⚡Travelling"
     )
@@ -130,10 +131,10 @@ const educationInfo = {
       logo: require("./assets/images/donbosco.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2013 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Ranked top 5% in the class Performance.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Participated and selected for English elocution and speaking",
+        "Win Carrom competition with First Prize"
       ]
     },
     {
