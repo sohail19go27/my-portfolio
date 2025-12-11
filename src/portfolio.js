@@ -219,7 +219,7 @@ const bigProjects = {
     {
       image: require("./assets/images/TaskManagement.png"),
       projectName: "Task Manager",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Handled task",
       footerLink: [
         {
           name: "Visit Website",
@@ -231,7 +231,7 @@ const bigProjects = {
     {
       image: require("./assets/images/BookingManagement.png"),
       projectName: "Booking Management",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Built secure authentication using Laravel Breeze with role-based access (Admin/User) and session handling for controlled system access",
       footerLink: [
         {
           name: "Visit Website",
