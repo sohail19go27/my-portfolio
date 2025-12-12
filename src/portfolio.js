@@ -48,7 +48,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SOFTWARE DEVELOPER WHO PUTS IDEAS INTO REALITY",
   skills: [
     emoji(
       "⚡ Develop Innovative real life AI driven Efficient working Software"
@@ -128,7 +128,7 @@ const educationInfo = {
     {
       schoolName: "Don Bosco Academy",
       logo: require("./assets/images/donbosco.png"),
-      subHeader: "Master of Science in Computer Science",
+      subHeader: "PREMATRICULATION",
       duration: "September 2013 - April 2019",
       desc: "Ranked top 5% in the class Performance.",
       descBullets: [
@@ -141,8 +141,16 @@ const educationInfo = {
       logo: require("./assets/images/allen.png"),
       subHeader: "JEE",
       duration: "September 2019 - April 2022",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Ranked top 10% in the program.",
       descBullets: ["Ranked in top 10 percentile in National Level Exam JEE-MAIN"]
+    },
+    {
+      schoolName: "IIIT MANIPUR",
+      logo: require("./assets/images/allen.png"),
+      subHeader: "Bachelors in Computer Science",
+      duration: "September 2022 - April 2026",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: ["Ranked in top 10 percentile in My Batch"]
     }
   ]
 };
