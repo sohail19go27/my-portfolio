@@ -55,9 +55,7 @@ const skillsSection = {
     ),
     emoji("⚡Data Structures Programmer"),
     emoji("⚡Love Play Carrom and Table Tennis"),
-    emoji(
-      "⚡Travelling"
-    )
+    emoji("⚡Exploring new places"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -150,7 +148,7 @@ const educationInfo = {
       subHeader: "Bachelors in Computer Science",
       duration: "September 2022 - April 2026",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Ranked in top 10 percentile in My Batch"]
+      descBullets: ["Learn valuable skills like languages and Programming"]
     }
   ]
 };
