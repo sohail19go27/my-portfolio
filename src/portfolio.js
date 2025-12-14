@@ -53,7 +53,7 @@ const skillsSection = {
     emoji(
       "⚡ Develop Innovative real life AI driven Efficient working Software"
     ),
-    emoji("⚡Data Structures Programmer"),
+    emoji("⚡Data Structures manipulator"),
     emoji("⚡Love Play Carrom and Table Tennis"),
     emoji("⚡Exploring new places"),
   ],
@@ -144,7 +144,7 @@ const educationInfo = {
     },
     {
       schoolName: "IIIT MANIPUR",
-      logo: require("./assets/images/allen.png"),
+      logo: require("./assets/images/iiitm.png"),
       subHeader: "Bachelors in Computer Science",
       duration: "September 2022 - April 2026",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -379,7 +379,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
+  number: "+92-7297981987",
   email_address: "sohail19006363@gmail.com"
 };
 
