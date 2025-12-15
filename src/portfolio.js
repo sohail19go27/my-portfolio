@@ -36,6 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/sohail19go27",
   linkedin: "https://www.linkedin.com/in/sohail-ahmad-68085b276",
   gmail: "sohail19006363@gmail.com",
+  portfolio: "https://my-portfolio-ruddy-iota-17.vercel.app/",
   //gitlab: "https://gitlab.com/saadpasta",
   //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -148,7 +149,9 @@ const educationInfo = {
       subHeader: "Bachelors in Computer Science",
       duration: "September 2022 - April 2026",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Learn valuable skills like languages and Programming"]
+      descBullets: ["Learn valuable skills like languages and Programming" ,
+                   "Learning communation and Group working together"
+                   ]
     }
   ]
 };
