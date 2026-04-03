@@ -1,390 +1,188 @@
 /* Change this file to get your personal Portfolio */
 
-// To change portfolio colors globally go to the  _globalColor.scss file
+// To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation"; 
 
 // Splash Screen
-
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true, 
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000 
 };
 
 // Summary And Greeting Section
-
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true 
 };
 
 const greeting = {
   username: "Sohail Ahmad",
   title: "Hi all, I'm Sohail",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 getting an experience of building Software Development Engineer having good knowledge of Full Stack Using Mern or php laravel and some other cool libraries and frameworks."
+    "A Software Development Engineer 🚀 with expertise in building high-performance, scalable systems and AI-driven applications. Experienced in Node.js, Spring Boot, and Python, with a strong focus on Operating Systems and Distributed Systems. Passionate about writing clean, efficient code and solving real-world problems through technology."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/14hL1F_bDuft3fr_-jtorWaC56-hLeduu/view?usp=drive_link", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink: "https://drive.google.com/file/d/14hL1F_bDuft3fr_-jtorWaC56-hLeduu/view?usp=drive_link", 
+  displayGreeting: true 
 };
 
 // Social Media Links
-
 const socialMediaLinks = {
   github: "https://github.com/sohail19go27",
   linkedin: "https://www.linkedin.com/in/sohail-ahmad-68085b276",
   gmail: "sohail19006363@gmail.com",
-  //gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/sohail.ahmad.291942",
-  //medium: "https://medium.com/@saadpasta",
-  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true 
 };
 
 // Skills Section
-
 const skillsSection = {
   title: "What I do",
-  subTitle: "SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SOFTWARE DEVELOPER SPECIALIZING IN FULL-STACK & AI SYSTEMS",
   skills: [
-    emoji(
-      "⚡ Develop Efficient working Software"
-    ),
-    emoji("⚡Play Carrom and Table Tennis"),
-    emoji(
-      "⚡Travelling"
-    )
+    emoji("⚡ Develop high-performance, scalable backend architectures"),
+    emoji("⚡ Integrate LLMs and NLP models into modern web applications"),
+    emoji("⚡ Optimize database performance through indexing and caching"),
+    emoji("⚡ Containerize applications using Docker for seamless deployment")
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
+    { skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt" },
+    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+    { skillName: "TypeScript", fontAwesomeClassname: "fas fa-code" },
+    { skillName: "reactjs", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "nodejs", fontAwesomeClassname: "fab fa-node" },
+    { skillName: "sql-database", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "java", fontAwesomeClassname: "fab fa-java" },
+    { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "git", fontAwesomeClassname: "fab fa-git" }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 // Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true, 
   schools: [
     {
-      schoolName: "Don Bosco Academy",
-      logo: require("./assets/images/donbosco.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2013 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "IIIT Manipur",
+      logo: require("./assets/images/IIITManipurLogo.png"),
+      subHeader: "B.Tech in Computer Science and Engineering",
+      duration: "May 2022 - May 2026",
+      desc: "CGPA: 8.01",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Smart India Hackathon 2025: Selected participant (Top 1%)",
+        "Solved 300+ problems on LeetCode with a focus on Advanced DSA",
+        "Second prize in college cybersecurity competition (Focus: Net. Security)",
+        "Organized coding events, mentoring 50+ juniors in Web Dev and DSA"
       ]
     },
     {
-      schoolName: "Allen",
+      schoolName: "Allen Career Institute",
       logo: require("./assets/images/allen.png"),
-      subHeader: "JEE",
-      duration: "September 2019 - April 2022",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "JEE Advanced Preparation",
+      duration: "2019 - 2022",
+      desc: "Cleared JEE Main with 95 percentile",
+      descBullets: ["Developed strong analytical and problem-solving skills"]
+    },
+    {
+      schoolName: "Don Bosco Academy, Patna",
+      logo: require("./assets/images/donbosco.png"),
+      subHeader: "ICSE (Class X)",
+      duration: "Completed 2019",
+      desc: "Secure 91.2% in ICSE Board Examination",
+      descBullets: ["Ranked in the top 2% of school academics"]
     }
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-
+// Proficiency Section
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, 
+  experience: [
+    { Stack: "Backend (Node.js, Spring Boot, SQL)", progressPercentage: "85%" },
+    { Stack: "Programming (C++, Java, Python)", progressPercentage: "80%" },
+    { Stack: "Frontend (React, Next.js)", progressPercentage: "70%" },
+    { Stack: "DevOps (Docker, CI/CD, Linux)", progressPercentage: "65%" }
+  ],
+  displayCodersrank: false 
+};
+
+// Work Experience Section
+const workExperiences = {
+  display: true, 
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      role: "Backend Developer Intern",
+      company: "1stop",
+      companylogo: require("./assets/images/1stop_logo.png"), // Ensure this image exists
+      date: "Jan 2025 – Apr 2025",
+      desc: "Optimized backend systems and enhanced application security.",
+      descBullets: [
+        "Boosted performance by 35% through MySQL indexing and caching layers",
+        "Implemented Laravel Breeze auth with RBAC and secure hashing",
+        "Dockerized environments for 100% reproducibility across servers"
+      ]
     }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  ]
 };
 
-// Work experience section
-
-const workExperiences = {
-//   display: true, //Set it to true to show workExperiences Section
-//   experience: [
-//     {
-//       role: "Developer",
-//       company: "1stop.ai",
-//       companylogo: require("./assets/images/facebookLogo.png"),
-//       date: "June 20223",
-//       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-//       descBullets: [
-//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-//       ]
-//     },
-//     {
-//       role: "Front-End Developer",
-//       company: "Quora",
-//       companylogo: require("./assets/images/quoraLogo.png"),
-//       date: "May 2017 – May 2018",
-//       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-//     },
-//     {
-//       role: "Software Engineer Intern",
-//       company: "Airbnb",
-//       companylogo: require("./assets/images/airbnbLogo.png"),
-//       date: "Jan 2015 – Sep 2015",
-//       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-//     }
-//   ]
- };
-
- /* Your Open Source Section to View Your Github Pinned Projects
- To know how to get github key look at readme.md */
-
-const openSource = {
-  // showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  // display: true // Set false to hide this section, defaults to true
-};
-
-// Some big projects you have worked on
-
+// Big Projects Section
 const bigProjects = {
-  title: " Projects",
-  //subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
   projects: [
     {
-      image: require("./assets/images/TaskManagement.png"),
-      projectName: "Task Manager",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/LogoMindShield.png"),
+      projectName: "MindShield - AI Powered Digital Discipline",
+      projectDesc: "A MERN stack platform using Python NLP models for sentiment detection to combat social media addiction and anxiety.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
+        { name: "View Code", url: "https://github.com/sohail19go27/MINDShield" }
       ]
     },
     {
-      image: require("./assets/images/BookingManagement.png"),
-      projectName: "Booking Management",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/AIFitness.png"), // Update to your file name
+      projectName: "AI Fitness Manager",
+      projectDesc: "Personalized planner built with Next.js and LLM APIs (OpenAI/Gemini) to generate structured workout architectures.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://bankingmanagement.onrender.com/"
-        }
+        { name: "View Code", url: "https://github.com/sohail19go27/AI-Fitness-Coach" }
+      ]
+    },
+    {
+      image: require("./assets/images/ERP_System.png"), // Update to your file name
+      projectName: "Distributed ERP System",
+      projectDesc: "Scalable Java Spring Boot backend architected for high-concurrency enterprise data across multiple modules.",
+      footerLink: [
+        { name: "View Code", url: "https://github.com/sohail19go27" }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
-// Achievement Section
-// Include certificates, talks etc
-
-const achievementSection = {
-  // title: emoji("Achievements And Certifications 🏆 "),
-  // subtitle:
-  //   "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
-  // achievementsCards: [
-  //   {
-  //     title: "Google Code-In Finalist",
-  //     subtitle:
-  //       "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-  //     image: require("./assets/images/codeInLogo.webp"),
-  //     imageAlt: "Google Code-In Logo",
-  //     footerLink: [
-  //       {
-  //         name: "Certification",
-  //         url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-  //       },
-  //       {
-  //         name: "Award Letter",
-  //         url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-  //       },
-  //       {
-  //         name: "Google Code-in Blog",
-  //         url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-  //       }
-  //     ]
-  //   },
-  //   {
-  //     title: "Google Assistant Action",
-  //     subtitle:
-  //       "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-  //     image: require("./assets/images/googleAssistantLogo.webp"),
-  //     imageAlt: "Google Assistant Action Logo",
-  //     footerLink: [
-  //       {
-  //         name: "View Google Assistant Action",
-  //         url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-  //       }
-  //     ]
-  //   },
-
-  //   {
-  //     title: "PWA Web App Developer",
-  //     subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-  //     image: require("./assets/images/pwaLogo.webp"),
-  //     imageAlt: "PWA Logo",
-  //     footerLink: [
-  //       {name: "Certification", url: ""},
-  //       {
-  //         name: "Final Project",
-  //         url: "https://pakistan-olx-1.firebaseapp.com/"
-  //       }
-  //     ]
-  //   }
-  // ],
-  // display: true // Set false to hide this section, defaults to true
-};
-
-// Blogs Section
-
-const blogSection = {
-  // title: "Blogs",
-  // subtitle:
-  //   "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  // displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  // blogs: [
-  //   {
-  //     url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-  //     title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-  //     description:
-  //       "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-  //   },
-  //   {
-  //     url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-  //     title: "Why REACT is The Best?",
-  //     description:
-  //       "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-  //   }
-  // ],
-  // display: true // Set false to hide this section, defaults to true
-};
-
-// Talks Sections
-
-const talkSection = {
-  // title: "TALKS",
-  // subtitle: emoji(
-  //   "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  // ),
-
-  // talks: [
-  //   {
-  //     title: "Build Actions For Google Assistant",
-  //     subtitle: "Codelab at GDG DevFest Karachi 2019",
-  //     slides_url: "https://bit.ly/saadpasta-slides",
-  //     event_url: "https://www.facebook.com/events/2339906106275053/"
-  //   }
-  // ],
-  // display: true // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  // title: emoji("Podcast 🎙️"),
-  // subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // // Please Provide with Your Podcast embeded Link
-  // podcast: [
-  //   "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  // ],
-  // display: true // Set false to hide this section, defaults to true
-};
-
-// Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-resumeLink:
-    "https://drive.google.com/file/d/14hL1F_bDuft3fr_-jtorWaC56-hLeduu/view?usp=drive_link",
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  resumeLink: "https://drive.google.com/file/d/14hL1F_bDuft3fr_-jtorWaC56-hLeduu/view?usp=drive_link",
+  display: true 
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+91-7296971876",
   email_address: "sohail19006363@gmail.com"
 };
 
-// Twitter Section
-
-const twitterDetails = {
-  // userName: "twitter", //Replace "twitter" with your twitter username without @
-  // display: true // Set true to display this section, defaults to false
-};
-
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const openSource = { display: false };
+const achievementSection = { display: false };
+const blogSection = { display: false };
+const talkSection = { display: false };
+const podcastSection = { display: false };
+const twitterDetails = { display: false };
+const isHireable = true; 
 
 export {
   illustration,
