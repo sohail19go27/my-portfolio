@@ -21,6 +21,7 @@ const greeting = {
   username: "Sohail Ahmad",
   title: "Hi all, I'm Sohail",
   subTitle: emoji(
+<<<<<<< HEAD
     "A Software Development Engineer 🚀 with expertise in building high-performance, scalable systems and AI-driven applications. Experienced in Node.js, Spring Boot, and Python, with a strong focus on Operating Systems and Distributed Systems. Passionate about writing clean, efficient code and solving real-world problems through technology."
   ),
   resumeLink: "https://drive.google.com/file/d/14hL1F_bDuft3fr_-jtorWaC56-hLeduu/view?usp=drive_link", 
@@ -32,6 +33,7 @@ const socialMediaLinks = {
   github: "https://github.com/sohail19go27",
   linkedin: "https://www.linkedin.com/in/sohail-ahmad-68085b276",
   gmail: "sohail19006363@gmail.com",
+<<<<<<< HEAD
   facebook: "https://www.facebook.com/sohail.ahmad.291942",
   display: true 
 };
@@ -39,6 +41,7 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "What I do",
+<<<<<<< HEAD
   subTitle: "SOFTWARE DEVELOPER SPECIALIZING IN FULL-STACK & AI SYSTEMS",
   skills: [
     emoji("⚡ Develop high-performance, scalable backend architectures"),
@@ -68,6 +71,7 @@ const educationInfo = {
   display: true, 
   schools: [
     {
+<<<<<<< HEAD
       schoolName: "IIIT Manipur",
       logo: require("./assets/images/IIITManipurLogo.png"),
       subHeader: "B.Tech in Computer Science and Engineering",
@@ -135,6 +139,7 @@ const bigProjects = {
   title: "Projects",
   projects: [
     {
+<<<<<<< HEAD
       image: require("./assets/images/LogoMindShield.png"),
       projectName: "MindShield - AI Powered Digital Discipline",
       projectDesc: "A MERN stack platform using Python NLP models for sentiment detection to combat social media addiction and anxiety.",
@@ -143,6 +148,7 @@ const bigProjects = {
       ]
     },
     {
+<<<<<<< HEAD
       image: require("./assets/images/AIFitness.png"), // Update to your file name
       projectName: "AI Fitness Manager",
       projectDesc: "Personalized planner built with Next.js and LLM APIs (OpenAI/Gemini) to generate structured workout architectures.",
@@ -171,6 +177,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
+<<<<<<< HEAD
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-7296971876",
   email_address: "sohail19006363@gmail.com"
