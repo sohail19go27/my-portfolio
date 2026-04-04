@@ -24,7 +24,7 @@ const greeting = {
     "A Software Development Engineer 🚀 with expertise in building high-performance, scalable systems and AI-driven applications. Experienced in Node.js, Spring Boot, and Python, with a strong focus on Operating Systems and Distributed Systems. Passionate about writing clean, efficient code and solving real-world problems through technology."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/14hL1F_bDuft3fr_-jtorWaC56-hLeduu/view?usp=drive_link",
+    "https://drive.google.com/file/d/1K24Qr0IwTViKKrHjywV0sm3L_QAcEDiW/view?usp=sharing",
   displayGreeting: true
 };
 
@@ -49,17 +49,17 @@ const skillsSection = {
   ],
 
   softwareSkills: [
-    {skillName: "html-5", fontAwesomeClassname: "fab fa-html5"},
-    {skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt"},
-    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
-    {skillName: "TypeScript", fontAwesomeClassname: "fas fa-code"},
-    {skillName: "reactjs", fontAwesomeClassname: "fab fa-react"},
-    {skillName: "nodejs", fontAwesomeClassname: "fab fa-node"},
-    {skillName: "sql-database", fontAwesomeClassname: "fas fa-database"},
-    {skillName: "python", fontAwesomeClassname: "fab fa-python"},
-    {skillName: "java", fontAwesomeClassname: "fab fa-java"},
-    {skillName: "docker", fontAwesomeClassname: "fab fa-docker"},
-    {skillName: "git", fontAwesomeClassname: "fab fa-git"}
+    { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
+    { skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt" },
+    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+    { skillName: "TypeScript", fontAwesomeClassname: "fas fa-code" },
+    { skillName: "reactjs", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "nodejs", fontAwesomeClassname: "fab fa-node" },
+    { skillName: "sql-database", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "java", fontAwesomeClassname: "fab fa-java" },
+    { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "git", fontAwesomeClassname: "fab fa-git" }
   ],
   display: true
 };
@@ -75,9 +75,9 @@ const educationInfo = {
       duration: "May 2022 - May 2026",
       desc: "CGPA: 8.01",
       descBullets: [
-        "Smart India Hackathon 2025: Selected participant (Top 1%)",
+        "Smart India Hackathon 2025: Selected participant",
         "Solved 300+ problems on LeetCode with a focus on Advanced DSA",
-        "Second prize in college cybersecurity competition (Focus: Net. Security)",
+        "Second prize in college cybersecurity competition",
         "Organized coding events, mentoring 50+ juniors in Web Dev and DSA"
       ]
     },
@@ -104,10 +104,10 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    {Stack: "Backend (Node.js, Spring Boot, SQL)", progressPercentage: "85%"},
-    {Stack: "Programming (C++, Java, Python)", progressPercentage: "80%"},
-    {Stack: "Frontend (React, Next.js)", progressPercentage: "70%"},
-    {Stack: "DevOps (Docker, CI/CD, Linux)", progressPercentage: "65%"}
+    { Stack: "Backend (Node.js, Spring Boot, SQL)", progressPercentage: "85%" },
+    { Stack: "Programming (C++, Java, Python)", progressPercentage: "80%" },
+    { Stack: "Frontend (React, Next.js)", progressPercentage: "70%" },
+    { Stack: "DevOps (Docker, CI/CD, Linux)", progressPercentage: "65%" }
   ],
   displayCodersrank: false
 };
@@ -119,9 +119,21 @@ const workExperiences = {
     {
       role: "Backend Developer Intern",
       company: "1stop",
-      companylogo: require("./assets/images/1stop_logo.png"), // Ensure this image exists
+      companylogo: require("./assets/images/1stop.ai.png"), // Ensure this image exists
       date: "Jan 2025 – Apr 2025",
       desc: "Optimized backend systems and enhanced application security.",
+      descBullets: [
+        "Boosted performance by 35% through MySQL indexing and caching layers",
+        "Implemented Laravel Breeze auth with RBAC and secure hashing",
+        "Dockerized environments for 100% reproducibility across servers"
+      ]
+    },
+    {
+      role: "Full Stack Java Developer",
+      company: "Skybrisk",
+      companylogo: require("./assets/images/Skybrisk.png"), // Ensure this image exists
+      date: "Jan 2025 – Apr 2025",
+      desc: "Made running Full Stack Projects.",
       descBullets: [
         "Boosted performance by 35% through MySQL indexing and caching layers",
         "Implemented Laravel Breeze auth with RBAC and secure hashing",
@@ -141,11 +153,12 @@ const bigProjects = {
       projectDesc:
         "A MERN stack platform using Python NLP models for sentiment detection to combat social media addiction and anxiety.",
       footerLink: [
-        {name: "View Code", url: "https://github.com/sohail19go27/MINDShield"}
+        { name: "View Code", url: "https://github.com/sohail19go27/MINDShield" },
+        { name: "Live", url: "https://mind-shield-alpha.vercel.app/" }
       ]
     },
     {
-      image: require("./assets/images/AIFitness.png"), // Update to your file name
+      image: require("./assets/images/AI_fitness.png"), // Update to your file name
       projectName: "AI Fitness Manager",
       projectDesc:
         "Personalized planner built with Next.js and LLM APIs (OpenAI/Gemini) to generate structured workout architectures.",
@@ -153,7 +166,8 @@ const bigProjects = {
         {
           name: "View Code",
           url: "https://github.com/sohail19go27/AI-Fitness-Coach"
-        }
+        },
+        { name: "Live", url: "https://ai-fitness-coach-r1hi.vercel.app/" }
       ]
     },
     {
@@ -161,7 +175,22 @@ const bigProjects = {
       projectName: "Distributed ERP System",
       projectDesc:
         "Scalable Java Spring Boot backend architected for high-concurrency enterprise data across multiple modules.",
-      footerLink: [{name: "View Code", url: "https://github.com/sohail19go27"}]
+      footerLink: [{ name: "View Code", url: "https://github.com/sohail19go27" },
+      { name: "Live", url: "https://erp-system-inventory-sales.vercel.app/" }
+      ]
+    },
+    {
+      image: require("./assets/images/Anomaly.png"), // Update to your file name
+      projectName: "Anomaly Detection using data analysis",
+      projectDesc:
+        "Detects Anomalies of behaviour of person over past days. Detect misaligned behaviour and Patterns",
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://github.com/sohail19go27/sentio-poc-anomaly-detection"
+        },
+        { name: "Live", url: "https://sentio-poc-anomaly-detection.onrender.com/" }
+      ]
     }
   ],
   display: true
@@ -171,7 +200,7 @@ const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
   resumeLink:
-    "https://drive.google.com/file/d/14hL1F_bDuft3fr_-jtorWaC56-hLeduu/view?usp=drive_link",
+    "https://drive.google.com/file/d/1K24Qr0IwTViKKrHjywV0sm3L_QAcEDiW/view?usp=sharing",
   display: true
 };
 
@@ -183,12 +212,12 @@ const contactInfo = {
   email_address: "sohail19006363@gmail.com"
 };
 
-const openSource = {display: false};
-const achievementSection = {display: false};
-const blogSection = {display: false};
-const talkSection = {display: false};
-const podcastSection = {display: false};
-const twitterDetails = {display: false};
+const openSource = { display: false };
+const achievementSection = { display: false };
+const blogSection = { display: false };
+const talkSection = { display: false };
+const podcastSection = { display: false };
+const twitterDetails = { display: false };
 const isHireable = true;
 
 export {
